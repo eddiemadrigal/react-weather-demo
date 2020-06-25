@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 const Weather = () => {
 
-    const API_Key = '48b2db95f7ca34199398b4bea1ae86e4';
+    const API_Key = '';
     const [city, setCity] = useState('');
     const [state, setState] = useState('');
     const [country, setCountry] = useState('');
